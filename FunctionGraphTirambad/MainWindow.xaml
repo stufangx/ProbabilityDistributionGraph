@@ -1,0 +1,41 @@
+﻿<Window x:Class="FunctionGraphTirambad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Probability Distributions" Height="350" Width="525" Background="#FF5F1818" Foreground="#FF3C1010">
+
+    <Grid Margin="0,0,-62,-52">
+        <Grid.Effect>
+            <DropShadowEffect/>
+        </Grid.Effect>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="473*"/>
+            <ColumnDefinition Width="106*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Normal" HorizontalAlignment="Left" Height="33" Margin="158,24,0,0" VerticalAlignment="Top" Width="188" Click="normal_Click" BorderThickness="2" FontWeight="Bold" FontFamily="Segoe UI Black">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="{DynamicResource {x:Static SystemParameters.CursorHeightKey}}" Opacity="{DynamicResource {x:Static SystemParameters.IconHeightKey}}"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Exponential" HorizontalAlignment="Left" Height="33" Margin="158,77,0,0" VerticalAlignment="Top" Width="188" Click="exponential_Click" FontWeight="Bold" FontFamily="Segoe UI Black">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="{DynamicResource {x:Static SystemParameters.CursorHeightKey}}" Opacity="{DynamicResource {x:Static SystemParameters.IconHeightKey}}"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Binomial" HorizontalAlignment="Left" Height="33" Margin="158,131,0,0" VerticalAlignment="Top" Width="188" Click="binomial_Click" FontWeight="Bold" FontFamily="Segoe UI Black">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="{DynamicResource {x:Static SystemParameters.CursorHeightKey}}" Opacity="{DynamicResource {x:Static SystemParameters.IconHeightKey}}"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Poisson" HorizontalAlignment="Left" Height="33" Margin="158,192,0,0" VerticalAlignment="Top" Width="188" Click="poison_Click" FontWeight="Bold" FontFamily="Segoe UI Black">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="{DynamicResource {x:Static SystemParameters.CursorHeightKey}}" Opacity="{DynamicResource {x:Static SystemParameters.IconHeightKey}}"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Rayleigh" HorizontalAlignment="Left" Height="33" Margin="158,248,0,0" VerticalAlignment="Top" Width="188" Click="rayleigh_Click" FontWeight="Bold" FontFamily="Segoe UI Black">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="{DynamicResource {x:Static SystemParameters.CursorHeightKey}}" Opacity="{DynamicResource {x:Static SystemParameters.IconHeightKey}}"/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>
